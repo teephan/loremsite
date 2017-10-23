@@ -1,0 +1,1344 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*HEADER / MAIN NAV */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+}
+
+div.navBar li {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+div.navBar a {
+    text-decoration: none;
+    color: black;
+}
+
+div.navBar nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+div.navBar li a:hover {
+    border-bottom: #32CD32 solid 2.5px;
+}
+
+/*PAGE 1 */
+
+section.pageOne {
+    padding: 50px 120px;
+}
+
+div.lorem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.lorem h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    line-height: 115%;
+}
+
+div.lorem p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+p.paraTop {
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 300px;
+    margin: 0px;
+    color: #A9A9A9;
+    line-height: 125%;
+    letter-spacing: 10px;
+}
+
+div.mainImage {
+    max-width: 700px;   
+    height: 250px;
+    margin-left: auto;
+}
+
+div.mainImage img {
+    width: 100%;
+    height: 100%;
+}
+
+div.navButtons {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+div.navButtons button {
+    border: none;
+    background-color: white;
+    border-bottom: solid 3px black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.4s all;
+}
+
+button.prev {
+    padding-right: 70px;
+}
+
+button.next {
+    padding-left: 70px;
+}
+
+div.navButtons button a {
+    text-decoration: none;
+    color: black;
+}
+
+div.navButtons button:hover {
+    border-bottom: solid 4px #32CD32;
+}
+
+/*PAGE 2 */
+
+section.pageTwo {
+    padding: 50px 120px;
+}
+
+h3.imsum {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h3.consect {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+div.twoHeader p {
+    font-size: 13px;
+    margin: 0;
+    max-width: 50%;
+    line-height: 160%;
+}
+
+div.iconInfo, div.iconInfo2 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    margin: 0;
+}
+
+div.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.icon img {
+    padding-right: 30px;
+}
+
+/*PAGE 3*/
+
+section.pageThree {
+    background: #ECECEC;
+    padding: 80px 120px;
+}
+
+div.threeHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 40px 40px 40px;
+}
+
+div.threeHeader h3.imsum {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+div.threeHeader h3.epertize {
+    font-size: 40px;
+    margin: 0;
+}
+
+div.threeHeader p {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 160%;
+}
+
+div.threeFlex, div.threeFlex2, div.threeFlex3, div.threeFlex4 {
+    padding-top: 40px;
+}
+
+div.Flex, div.Flex1 {
+    max-width: 400px;
+    height: auto;
+    max-width: auto;
+    max-height: auto;
+}
+
+div.Flex img, div.Flex1 img {
+    width: 100%;
+    display: block;
+}
+
+div.number h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+p.threePara {
+    padding-top: 20px;
+}
+
+/*FLEX INFORMATION SECTION, PART 1*/
+
+div.threeFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+div.threeInfo {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div.threeHeaderFont h4.Head {
+    font-size: 18px;
+    margin: 0;
+}
+
+div.threeHeaderFont h4.magna {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+div.threeInfo p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* FLEX INFORMATION SECTION, PART 2*/
+
+div.threeFlex2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+div.threeInfo2 {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div.threeInfo2 div.number h5 {
+    text-align: right;
+}
+
+div.threeHeaderFont2 h4.Head {
+    text-align: right;
+}
+
+div.threeHeaderFont2 h4.magna {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+}
+
+div.threeHeaderFont2 p {
+    font-size: 14px;
+    margin: 0;
+    text-align: right;
+}
+
+/*FLEX INFORMATION SECTION, PART 3*/
+
+div.threeFlex3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+div.threeInfo3 {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div.threeHeaderFont3 h4.Head {
+    font-size: 18px;
+    margin: 0;
+}
+
+div.threeHeaderFont3 h4.magna {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+div.number h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+div.threeInfo3 p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/*FLEX INFORMATION SECTION, PART 4*/
+
+div.threeFlex4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+div.threeInfo4 {
+    max-width: 401px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div.threeInfo4 div.number h5 {
+    text-align: right;
+}
+
+div.threeHeaderFont4 h4.Head {
+    text-align: right;
+}
+
+div.threeHeaderFont4 h4.magna {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+}
+
+div.threeHeaderFont4 p {
+    font-size: 14px;
+    margin: 0;
+    text-align: right;
+}
+
+/*PAGE 4*/
+
+section.pageFour {
+    padding: 100px 120px;
+    background-color: white;
+    text-align: center;
+}
+
+div.fourContainer {
+    transition: 0.5s all;
+}
+
+div.fourContainer h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div.fourContainer p {
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+div.fourContainer button {
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 0.5s all;
+    padding: 15px 0px;
+}
+
+div.fourContainer a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px 50px;
+}
+
+div.fourContainer button:hover {
+    background-color: #32CD32;
+}
+
+/*PAGE 5*/
+
+/*BOX 1*/
+
+section.pageFive {
+    padding: 100px 120px;
+    background-color: #ECECEC;
+}
+
+div.fiveContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+div.Box1, div.Box2, div.Box3 {
+    padding: 50px;
+}
+
+div.fiveContainer div.Box2 {
+    margin: 0px 20px;
+}
+
+div.fiveContainer div.Box1, div.Box3 {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+}
+
+div.Box2 {
+    width: 300px;
+    height: 500px;
+    background-color: black;
+}
+
+div.Box1 h1 {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: flex-start;
+    padding-top: 15px;
+}
+
+div.cost h1 {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+div.cost h2 {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 0px;
+    margin-top: 33px;
+    padding-left: 15px;
+}
+
+div.cost h2 span {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 0%;
+}
+
+div.line {
+    height: 1px;
+    border-bottom: 1px solid #D3D3D3;
+    padding: 20px;
+}
+
+div.Box1Content {
+    padding-bottom: 88px;
+}
+
+div.Box2Content {
+    padding-bottom: 32px;
+}
+
+div.Box3Content {
+    padding-bottom: 60px;
+}
+
+/*BOX 1*/
+
+div.Box1 h3 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+div.Box1 h3.Dolorem {
+    padding-top: 20px;
+}
+
+div.Box1 div.buttonContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.Box1 div.buttonContainer button {
+    border: none;
+    background-color: black;
+    padding: 15px 50px;
+    transition: 0.5s all;
+}
+
+div.Box1 div.buttonContainer a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+div.buttonContainer h4 {
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+div.Box1 div.buttonContainer button:hover {
+    background-color: #32CD32;
+}
+
+/*CIRCLE OVER BOX 2*/
+div.fiveCircleContainer {
+    position: relative;
+    padding: 10px;
+}
+
+div.fiveCircle {
+    border-radius: 50%;
+    background-color: white;
+    padding: 28px 27px;
+    position: absolute;
+    right: 37%;
+    top: -25px;
+    z-index: 9;
+}
+
+div.fiveCircle h1 {
+    font-size: 13px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/*BOX 2*/
+
+div.Box2 {
+    color: white;
+}
+
+div.Box2 div.cost h2 {
+    color: white;
+}
+
+div.Box2 h1 {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+div.Box2 h3 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+div.Box2 h3.Dolorem {
+    padding-top: 20px;
+}
+
+div.Box2 div.buttonContainer {
+    text-align: center;
+}
+
+div.buttonContainer button {
+    border: none;
+    background-color: white;
+    padding: 15px 50px;
+    transition: 0.5s all;
+}
+
+div.Box2 div.buttonContainer a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+div.Box2 div.buttonContainer button:hover {
+    background-color: #32CD32;
+}
+
+/*BOX 3*/
+
+div.Box3 h1 {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+div.Box3 h3 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+div.Box3 h3.Dolorem {
+    padding-top: 20px;
+}
+
+div.Box3 div.buttonContainer {
+    text-align: center;
+}
+
+div.Box3 div.buttonContainer button {
+    border: none;
+    background-color: black;
+    padding: 15px 50px;
+    transition: 0.5s all;
+}
+
+div.Box3 div.buttonContainer a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+div.Box3 div.buttonContainer button:hover {
+    background-color: #32CD32;
+}
+
+
+/*PAGE 6*/
+
+section.pageSix {
+    padding: 100px 120px;
+}
+
+div.pageSixContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.pageSixPart1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 100px;
+}
+
+div.pageSixPart1 h1 {
+    margin: 0;
+}
+
+div.pageSixPart1 h1.LoremPage6 {
+    padding-top: 30px;
+}
+
+div.pageSixPart2 p {
+    font-size: 15px;
+    margin: 0;
+}
+
+div.pageSixPart2 button {
+    margin-top: 30px;
+    border: none;
+    background-color: black;
+    transition: 0.5s all;
+    padding: 20px 0px;
+}
+
+div.pageSixPart2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px 50px;
+}
+
+div.pageSixPart2 button:hover {
+    background-color: #32CD32;
+}
+
+/*PAGE 7 / FOOTER*/
+
+footer {
+    padding: 80px 120px;
+    background-color: black;
+}
+
+div.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+}
+
+/*FOOTER COLUMN 1*/
+
+div.footerPart1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+div.footerLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.footerLogo img {
+    padding-right: 20px;
+}
+
+div.footerLogo h1 {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+div.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+div.social i {
+    color: white;
+}
+
+div.circle, div.circle1, div.circle2 {
+    background-color: #242424;
+    padding: 5px 10px;
+    border-radius: 50%;  
+}
+
+div.circle1 {
+    margin: 0px 10px;
+}
+
+div.social div.circle:hover, div.circle1:hover, div.circle2:hover {
+    background-color: #32CD32;
+}
+
+/*FOOTER COLUMNS 2, 3, 4*/
+
+div.footerPart2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 100px;
+}
+
+div.footerClick {
+    padding: 0px 40px;
+    transition: 0.5s all;
+}
+
+div.footerClick a {
+    text-decoration: none;
+}
+
+div.footerClick a.footerTag h2:hover {
+    color: #32CD32;
+}
+
+div.footerClick a.footerTag h3:hover {
+    color: #32CD32;
+}
+
+div.footerClick h1 {
+    color: #696969;
+    font-size: 13px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+div.footerClick h2 {
+    color: white;
+    font-size: 13px;
+    margin: 10px 0px;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+
+div.footerClick h3 {
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+/*FOOTER FORM*/
+
+div.footerPart3 {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+div.footerPart3 h1 {
+    color: #696969;
+    font-size: 13px;
+    padding-bottom: 15px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+input.email {
+    font-size: 12px;
+    padding: 10px 60px 10px 10px;
+    background-color: black;
+    border: 1.5px solid #696969;
+    color: white;
+}
+
+div.submitWrapper {
+    padding-top: 15px;
+}
+
+input.submit {
+    font-size: 13px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    padding: 7px 30px;
+    transition: 0.5s all;
+}
+
+div.submitWrapper input.submit:hover {
+    background-color: #32CD32;
+}
+
+
+/*RESPONSIVITY*/
+
+@media (max-width: 1045px) {
+    /*PAGE 3*/
+
+    div.threeInfo, div.threeInfo3 {
+        padding-left: 20px;
+    }
+    div.threeInfo2, div.threeInfo4 {
+        padding-right: 20px;
+    }
+    
+    /*PAGE 5*/
+    div.Box1Content {
+        padding-bottom: 60px;
+    }
+
+    div.Box2Content {
+        padding-bottom: 3px;
+    }
+
+    div.Box3Content {
+        padding-bottom: 30px;
+    }
+
+    /*FOOTER*/
+    div.footerPart2 {
+        padding-left: 30px;
+    }
+}
+
+
+/*tablets / small desktops*/
+@media (max-width: 940px) {
+    /*PAGE 1*/
+    div.oneMain h1 {
+        font-size: 75px;
+    }
+
+    div.oneMain2 h2 {
+        font-size: 230px;
+        padding-left: 40px;
+    }
+
+    /*PAGE 3*/
+    section.pageThree {
+        padding: 50px 70px;
+    }
+
+    div.threeFlex2, div.threeFlex3, div.threeFlex4 {
+        padding-top: 80px;
+    }
+
+    /*PAGE 5*/
+    div.fiveCircle {
+        right: 35%;
+}
+
+    /*FOOTER*/
+    div.footerPart2 {
+        padding: 0;
+    }
+    div.footerPart3 {
+        padding: 0;
+    }
+
+    div.footerClick {
+        padding: 0px 30px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    /*PAGE 5*/
+
+    section.pageFive {
+        padding: 100px 20px;
+    }
+
+    div.fiveContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative
+    }
+
+    div.fiveContainer div.Box1, div.Box2, div.Box3 {
+        width: 670px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    div.fiveContainer div.Box2 {
+        margin: 80px 0px;
+    }
+
+    div.BoxContainer1 {
+        padding-right: 10px;
+    }
+
+    div.BoxContainer2 {
+        padding: 0px;
+    }
+
+    div.line {
+        height: 50px;
+        width: 1px;
+        border-left: solid 1px #D3D3D3;
+        padding-top: 200px;
+        padding-right: 0;
+        border-bottom: none;
+    }
+
+    div.Box1Content {
+        padding-bottom: 30px;
+    }
+
+    div.fiveCircle {
+        right: 15%;
+        top: 350px;
+    }
+
+    /*FOOTER*/
+
+    div.footerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: space-between;
+    }
+    div.footerPart1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div.footerPart2 {
+        padding-top: 50px;
+    }
+
+    div.footerClick {
+        padding: 0px 40px;
+    }
+
+    form.subscribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    div.footerPart3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.footerPart3 h1 {
+        font-size: 20px;
+    }
+
+    input.email {
+        padding: 10px 200px 10px 10px;
+    }
+
+    input.submit {
+        padding: 10px 50px;
+    }
+}
+
+/*Landscape phones to portrait tablet*/
+@media (max-width: 730px) {
+
+    /*HEADER*/
+    header {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    div.navBar nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*PAGE 1 */
+
+    div.lorem {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    div.lorem h2 {
+        padding: 30px;
+    }
+
+    /*PAGE 2*/
+
+    div.twoHeader p {
+        max-width: 90%;
+    }
+
+    div.iconInfo, div.iconInfo2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    div.iconInfo2 {
+        padding: 0px;
+    }
+
+    /*PAGE 3*/
+
+    div.threeFlex, div.threeFlex2, div.threeFlex3, div.threeFlex4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.threeInfo, div.threeInfo2, div.threeInfo3, div.threeInfo4 {
+        padding-top: 15px;
+    }
+
+    /*PAGE 5*/
+
+    div.fiveContainer div.Box1, div.fiveContainer div.Box2, div.fiveContainer div.Box3 {
+        max-width: 90%;
+    }
+
+    div.Box1 h3.Dolorem, div.Box2 h3.Dolorem, div.Box3 h3.Dolorem {
+        padding-top: 0px;
+    }
+
+    div.Box1Content, div.Box3Content {
+        padding: 10px;
+    }
+
+    div.BoxContainer2 {
+        padding: 0px;
+    }
+
+    div.fiveCircle {
+        right: 15%;
+        top: 350px;
+    }
+
+    /*PAGE 6*/
+
+    div.pageSixContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.pageSixPart1 {
+        margin: 0;
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    /*HEADER*/
+
+    div.navBar nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.navBar li {
+        font-size: 25px;
+    }
+
+    /*PAGE 1, 2, 3, 4, 6*/
+
+    section.pageOne, section.pageTwo, section.pageThree, section.pageFour, section.pageSix, footer {
+        padding: 50px;
+    }
+
+    div.lorem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*PAGE 5*/
+    div.BoxContainer2 {
+        padding: 0px;
+    }
+
+    div.Box1 div.buttonContainer button, div.Box2 button, div.Box3 div.buttonContainer button {
+        padding: 10px 40px;
+    }
+
+    div.cost h2 span {
+        font-size: 70px;
+    }
+}
+
+/*Landscape phones and down*/
+@media (max-width: 480px) {
+    /*PAGE 1*/
+
+    section.pageOne, section.pageTwo, section.pageThree, section.pageFour, section.pageSix, section.pageSeven {
+        padding: 20px;
+    }
+
+    div.lorem {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    div.lorem h1 {
+        font-size: 40px;
+    }
+
+    div.lorem h2 {
+        font-size: 150px;
+        padding: 0;
+    }
+
+    button.prev {
+        padding-right: 30px;
+    }
+
+    button.next {
+        padding-left: 30px;
+    }
+
+    /*PAGE 2*/
+    div.twoHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.twoHeader h3.consect {
+        font-size: 30px;
+    }
+
+    /*PAGE 3*/
+
+    div.threeHeader h3.imsum {
+        font-size: 15px;
+    }
+    div.threeHeader h3.epertize {
+        font-size: 30px;
+    }
+
+    /*PAGE 5*/
+
+    div.cost h2 span {
+        font-size: 40px;
+    }
+
+    div.Box1 div.buttonContainer button, div.Box2 button, div.Box3 div.buttonContainer button {
+        padding: 5px 5px;
+    }
+
+    div.Box1 h3, div.Box2 h3, div.Box3 h3 {
+        font-size: 9px;
+    }
+
+    div.fiveCircle {
+        padding: 15px;
+        top: 370px;
+    }
+
+    div.fiveCircle h1 {
+        font-size: 10px;
+    }
+
+    div.Box1Content, div.Box3Content {
+        padding: 0px;
+    }
+
+    /*FOOTER*/
+
+    div.footerPart1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.social {
+        padding-top: 20px;
+    }
+
+    div.footerPart2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.footerClick h2, h3 {
+        text-align: center;
+    }
+
+    div.footerClick h1 {
+        padding-top: 20px;
+    }
+
+    input.email {
+        padding: 10px 90px 10px 10px;
+    }
+}
+
+@media (max-width: 330px) {
+    /*PAGE 5*/
+
+    div.fiveContainer div.Box1, div.Box2, div.Box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    div.line {
+        height: 1px;
+        border-bottom: 1px solid #D3D3D3;
+        border-left: none;
+        padding-top: 0px;
+        padding-right: 90px;
+    }
+
+    div.cost {
+        padding-top: 0px;
+    }
+
+    div.cost h2 span {
+        font-size: 50px;
+    }
+
+    div.Box1Content, div.Box3Content {
+        padding: 0px;
+    }
+
+    div.Box1 div.buttonContainer button, div.Box2 button, div.Box3 div.buttonContainer button {
+        padding: 4px 10px;
+    }
+}
